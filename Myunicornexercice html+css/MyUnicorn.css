@@ -1,0 +1,98 @@
+body{
+    padding:0;
+    margin: 0;
+    background-image:url("background.png") ;
+}
+body nav{
+    background-color:#C55394 ;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 56px;
+}
+#myU{
+    font-family: 'Courgette', cursive;
+    width: 10%;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+.first{
+    float: right;
+    width: 8%;
+    margin-top: -33px;
+    text-align: center;
+    padding: 10px;
+    line-height: 33px;
+    border-radius: 3px;
+}
+#second, .first:hover{
+    background-color:#EB43A3;
+}
+body h1{
+    color: #C55394;
+    text-align: center;
+    background-image: url("rainbow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+body h2{
+    color: #EB43A3 ;
+    font-weight: lighter;
+}
+body figure{
+    display: inline-block;
+    margin: 25% 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}  
+
+body figure figcaption{ background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: relative;
+    margin-top: -40px;
+    text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+input{width: 200px;
+     height: 28px;
+}
+ button{
+     background-color: hotpink;
+     color: white;
+     width: 90px;
+     border: none;
+     height: 35px;
+     width: 100px;
+     border-radius: 5px;
+ }
+ div#border{
+     border: 5px groove;
+     border-radius: 20px;
+     color: gray;
+     margin-left: 15%;
+     margin-right: 15%;
+     
+     
+ }
+ .noustrouver div{
+display: inline-block;
+ }
+ .notre{
+     padding-bottom: 70px;
+ }
+ footer{
+     background-color:  #E577B5;
+     padding: 2px;
+     padding-right: 45px;
+     margin-bottom: auto;
+     text-align: right;
+     color: white;
+ }
+ h1,h2{
+    font-family: 'Courgette', cursive;
+ }
